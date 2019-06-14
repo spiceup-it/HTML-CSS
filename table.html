@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Table Demo</title>
+	<link rel="stylesheet" href="style1.css">
+	<style>
+		body{
+			background-color:pink;
+
+		}
+		table{
+			background-color:purple;
+			color:white;
+		}
+		#t1{
+			background-color: aqua;
+		}
+		.row{
+			background-color: purple;
+		}
+		.r1{
+			color:peru;
+		}
+
+	</style>
+</head>
+<body style="background-color:yellow">
+	<h2>Table 1: Rowspan</h2>
+	<table border="3" cellpadding="20" cellspacing="5" width="100%" id="t1">
+		<thead>PRODUCTS TABLE</thead>
+		<tbody>
+		 <tr>
+			 <th rowspan="4">Products</th>
+			 <th>Name</th>
+		 	<th>Quantity</th>
+		 	<th>Price</th>
+		 </tr>
+		  <tr class="row">
+
+		 	<td>apple</td>
+		 	<td>2</td>
+		 	<td>200</td>
+		 </tr>
+		 <tr class="row r1">
+		 	<td>Orange</td>
+		 	<td>2</td>
+		 	<td>200</td>
+		 </tr>
+		  <tr>
+		 	<td>Mango</td>
+		 	<td>2</td>
+		 	<td>200</td>
+		 </tr>
+		</tbody>
+	 </table>
+	 <br>
+	 <h2>Table 2: Colspan</h2>
+	 <table border="3" cellpadding="20" width="100%" id="t2">
+		 <tr>
+		 	<th>Name</th>
+		 	<th>Quantity</th>
+		 	<th colspan="2" >Price</th>
+		 </tr>
+		  <tr>
+		 	<td>apple</td>
+		 	<td>2</td>
+		 	<td>200</td>
+		 	<td>100</td>
+		 	
+
+		 </tr>
+		 <tr>
+		 	<td>Orange</td>
+		 	<td>2</td>
+		 	<td>200</td>
+		 	<td>50</td>
+		 	
+		 </tr>
+	 </table>
+</body>
+</html>

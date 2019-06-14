@@ -1,0 +1,41 @@
+.container-1{
+	display:flex;
+	flex-direction: row; /* row-reverse| column | column-reverse */
+}
+
+.container-2{
+	display: flex;
+	justify-content: flex-start; /*flex-end | center | space-between |space-around */
+}
+
+.container-3{
+	display:flex;
+	justify-content: flex-start; /*flex-end | center | space-between |space-around */
+	flex-wrap: nowrap; /*wrap | wrap-reverse */
+}
+
+.container-2-box{
+	flex-basis: 33%;
+}
+
+.container-3-box{
+	flex-basis: 20%;
+}
+
+
+.container-1 div,.container-2 div,.container-3 div{
+	border:2px solid #ccc;
+	padding:10px;
+}
+.box-1{
+	flex:1;
+	order:3;
+}
+.box-2{
+	flex:2;
+	order:2;
+}
+.box-3{
+	flex:1;
+	order:1;
+}

@@ -1,0 +1,40 @@
+.container-1 div{
+	border:1px solid red;
+	padding:10px;
+}
+
+.container-1{
+	display:flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.box-1{
+	flex:1;
+	order:2;
+	
+}
+.box-2{
+	flex:2;
+	order:3;
+	
+}
+.box-3{
+	flex:1;
+	order:1;
+	
+}
+.container-2{
+	display:flex;
+	justify-content: space-between;
+}
+.container-2-box{
+		/* width:30%; */
+		flex-basis:20%;
+	}
+
+
+
+
+
+
+

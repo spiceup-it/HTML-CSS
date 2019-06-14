@@ -1,0 +1,78 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+	margin:0;
+	padding: 0;
+	background :url(seaway_bg.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+}
+.loginbox{
+	width:320px;
+	height: 420px;
+	background:pink;
+	color:#FFF;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.avatar{
+	width:100px;
+	border-radius: 50%;
+	position:absolute;
+	top:-50px;
+	left: calc(50% - 50px);
+}
+
+h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align:center;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.loginbox input{
+	width:100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size: 16px;
+}
+.loginbox input[type="submit"]{
+	height:40px;
+	outline: none;
+	border:none;
+	background: blue;
+	color:#fff;
+	font-size:18px;
+	border-radius: 20px;
+
+}
+.loginbox input[type="submit"]:hover{
+	cursor:pointer;
+	background: #ffc107;
+	color:#000;
+}
+.textarea{
+	display: flex;
+}
+.textarea i{
+	flex:1;
+	margin-top:15px;
+}
+.textarea input{
+	flex:8;
+}

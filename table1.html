@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TABLE</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-color: red;
+        }
+        table,th,td{
+            border-collapse: collapse;
+            /* background-color: pink; */
+        }
+        #t1{
+            background-color: pink; 
+            color:purple;
+        }
+        #t2{
+            background-color: white;
+            color:grey;
+        }
+        .trc{
+            background-color:rgba(100,0,0,0.2)
+        }
+        .tdc{
+            background-color:rgb(55, 161, 202)
+        }
+    </style>
+</head>
+<body style="background-color: yellow">
+    <table border="3" cellpadding="20" cellspacing="10" width="100%" id="t1">
+        <thead>PRODUCTS</thead>
+        <tbody>
+            <tr>
+                <th>NO</th>
+                <th rowspan=2>ITEM NAME</th>
+                <th>ITEM QUANTITY</th>
+                <th colspan=2>ITEM PRICE</th>
+            </tr>
+            <tr >
+               <td></td>
+               <td></td>
+               <td colspan=2></td>
+            </tr>
+            <tr class="trc">
+                <td class="tdc">1</td>
+                <td>Apples</td>
+                <td>50</td>
+                <td>500</td>
+                <td>800</td>
+            </tr>
+            <tr class="trc">
+                <td class="tdc">2</td>
+                <td>Mangoes</td>
+                <td>20</td>
+                <td>300</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="3" cellpadding="20" cellspacing="10" width="100%" id="t2">
+            <thead>TABLE 2</thead>
+            <tbody>
+                <tr>
+                    <th>NO</th>
+                    <th rowspan=2>ITEM NAME</th>
+                    <th>ITEM QUANTITY</th>
+                    <th colspan=2>ITEM PRICE</th>
+                </tr>
+                <tr>
+                   <td></td>
+                   <td></td>
+                   <td colspan=2></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Apples</td>
+                    <td>50</td>
+                    <td>500</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mangoes</td>
+                    <td>20</td>
+                    <td>300</td>
+                    <td>500</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>
